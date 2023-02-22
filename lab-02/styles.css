@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+        flex-direction: column;
+        background-color: #050;
+        width: 15vw;
+}
+
+nav a {
+    background-color: #055;
+	color: #afa;
+	padding: 0.25em 0.5em;
+	margin: 1em;
+}
+
+nav a:hover {
+    background-color: #070;
+}
+
+header, section {
+    overflow: auto;
+}
+
+section {
+    width: 85vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
